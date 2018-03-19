@@ -1,0 +1,1 @@
+I am used by the DebugScope browser to define control over adaptations.

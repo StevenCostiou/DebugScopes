@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "StevenCostiou 12/13/2017 11:23",
+	"super" : "GLMCompositePresentation",
+	"category" : "DebugScopes-Tools-Browser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"node",
+		"activationCondition",
+		"scope"
+	],
+	"name" : "ConditionalScopeBuilder",
+	"type" : "normal"
+}

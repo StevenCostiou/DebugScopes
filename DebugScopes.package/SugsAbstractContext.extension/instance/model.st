@@ -1,0 +1,3 @@
+*DebugScopes
+model
+	^model

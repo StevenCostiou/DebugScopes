@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "StevenCostiou 12/13/2017 10:21",
+	"super" : "GLMCompositePresentation",
+	"category" : "DebugScopes-Tools-Browser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"selectedArguments",
+		"adaptationSpec",
+		"controlsList",
+		"controlSpec",
+		"argsBrowser"
+	],
+	"name" : "AdaptationControlBrowser",
+	"type" : "normal"
+}

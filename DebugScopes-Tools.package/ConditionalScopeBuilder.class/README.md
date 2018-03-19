@@ -1,0 +1,1 @@
+I provide a graphic user interface to build a conditional scope. I only allow to build absolute conditions, evaluated at a given point in the code.

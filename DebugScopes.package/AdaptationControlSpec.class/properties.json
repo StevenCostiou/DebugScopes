@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "DebugScopes-Adaptations",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"controlledMethod",
+		"controlledMethodClass",
+		"controlledArguments",
+		"controllingSelector",
+		"controllingMethod",
+		"control"
+	],
+	"name" : "AdaptationControlSpec",
+	"type" : "normal"
+}

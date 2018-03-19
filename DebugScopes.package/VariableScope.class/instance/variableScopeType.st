@@ -1,0 +1,3 @@
+accessing
+variableScopeType
+	^ 'Variable collector'

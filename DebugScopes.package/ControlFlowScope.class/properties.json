@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "ActivationScope",
+	"category" : "DebugScopes-Scopes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"activationAst",
+		"deactivationAst",
+		"links"
+	],
+	"name" : "ControlFlowScope",
+	"type" : "normal"
+}

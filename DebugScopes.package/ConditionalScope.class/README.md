@@ -1,0 +1,1 @@
+Code inspired from MetaLinks Toolkit (Peter Uhnak), https://github.com/peteruhnak/metalinks-toolkit.

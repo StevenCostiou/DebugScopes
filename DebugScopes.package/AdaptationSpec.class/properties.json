@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "StevenCostiou 12/4/2017 09:04",
+	"super" : "Object",
+	"category" : "DebugScopes-Adaptations",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"controlMap",
+		"definingClass",
+		"adaptation",
+		"superClassPool"
+	],
+	"name" : "AdaptationSpec",
+	"type" : "normal"
+}

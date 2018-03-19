@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "DebugScopes-Tests-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"layer",
+		"layerWasActive",
+		"layerDeactivated"
+	],
+	"name" : "DebugScopeMonitor",
+	"type" : "normal"
+}

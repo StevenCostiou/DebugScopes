@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "StevenCostiou 10/16/2017 18:43",
+	"super" : "ObjectScope",
+	"category" : "DebugScopes-Scopes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"scopeType",
+		"link",
+		"weakObject",
+		"weakNodeReference"
+	],
+	"name" : "VariableScope",
+	"type" : "normal"
+}

@@ -1,0 +1,1 @@
+I implement class methods for Debug Scopes menu actions in class browsers.

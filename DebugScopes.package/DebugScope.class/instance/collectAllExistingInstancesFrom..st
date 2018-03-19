@@ -1,0 +1,2 @@
+scoping - objects
+collectAllExistingInstancesFrom: aClass

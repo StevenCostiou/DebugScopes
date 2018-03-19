@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Announcer",
+	"category" : "DebugScopes-Announcements",
+	"classinstvars" : [
+		"default"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DebugScopeGlobalAnnouncer",
+	"type" : "normal"
+}

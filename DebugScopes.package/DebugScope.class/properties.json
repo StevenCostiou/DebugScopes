@@ -1,0 +1,23 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "DebugScopes-Scopes",
+	"classinstvars" : [
+		"scopes",
+		"remoteScopesProxy"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"layerName",
+		"isActive",
+		"adaptedProcess",
+		"allScopesActivated",
+		"activationScopes",
+		"objectsScopes",
+		"adaptationsForCollectors",
+		"activationScript"
+	],
+	"name" : "DebugScope",
+	"type" : "normal"
+}

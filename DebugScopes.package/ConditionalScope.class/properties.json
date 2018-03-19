@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "StevenCostiou 10/14/2017 19:47",
+	"super" : "ActivationScope",
+	"category" : "DebugScopes-Scopes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"link",
+		"activationValue",
+		"weakObject"
+	],
+	"name" : "ConditionalScope",
+	"type" : "normal"
+}

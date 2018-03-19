@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "AbstractDynamicScope",
+	"category" : "DebugScopes-Scopes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"collectedObjects",
+		"behaviorsSpecs",
+		"collectedClasses",
+		"enabled",
+		"collectAction",
+		"releaseAction"
+	],
+	"name" : "ObjectScope",
+	"type" : "normal"
+}

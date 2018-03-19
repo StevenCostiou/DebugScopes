@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "StevenCostiou 12/13/2017 10:22",
+	"super" : "Object",
+	"category" : "DebugScopes-Tools-Browser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DebugScopesBrowserMenuActions",
+	"type" : "normal"
+}

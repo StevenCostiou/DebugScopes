@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "ActivationScope",
+	"category" : "DebugScopes-Scopes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"each",
+		"for",
+		"loop",
+		"timerStarted",
+		"process"
+	],
+	"name" : "TemporalScope",
+	"type" : "normal"
+}

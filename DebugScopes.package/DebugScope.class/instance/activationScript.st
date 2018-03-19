@@ -1,0 +1,3 @@
+scripting
+activationScript
+	^activationScript ifNil:[]

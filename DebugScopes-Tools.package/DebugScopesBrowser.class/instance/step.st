@@ -1,0 +1,3 @@
+stepping
+step
+	DebugScopeGlobalAnnouncer default announce: ObjectCollectorHasChanged

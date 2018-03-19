@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "LUBAdaptation",
+	"category" : "DebugScopes-LUB",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"adaptationSpec"
+	],
+	"name" : "ScopedAdaptation",
+	"type" : "normal"
+}

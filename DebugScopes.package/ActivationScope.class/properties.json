@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "AbstractDynamicScope",
+	"category" : "DebugScopes-Scopes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"isActive",
+		"initialized"
+	],
+	"name" : "ActivationScope",
+	"type" : "normal"
+}
