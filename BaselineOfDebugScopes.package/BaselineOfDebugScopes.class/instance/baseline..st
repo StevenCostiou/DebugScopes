@@ -10,4 +10,4 @@ baseline: spec
 			spec package: 'DebugScopes'.
 			spec package: 'DebugScopes-Tools'.
 			spec package: 'DebugScopes-Tests'.
-			spec package: 'DebugScopes-Lub' ]
+			spec package: 'DebugScopes-LUB' ]
