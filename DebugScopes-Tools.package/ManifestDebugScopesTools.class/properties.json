@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "<historical>",
 	"super" : "PackageManifest",
-	"category" : "DebugScopes-Tests",
+	"category" : "DebugScopes-Tools",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "ManifestDynamicLayersTests",
+	"name" : "ManifestDebugScopesTools",
 	"type" : "normal"
 }
