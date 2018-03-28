@@ -1,6 +1,7 @@
 scoping
-removeObjectScope: aScope
-	aScope rejectAll.
-	objectsScopes remove: aScope ifAbsent: [  ].
-	aScope release.
+removeObjectScope: aCollector
+
+	aCollector rejectAll.
+	collectors remove: aCollector ifAbsent: [  ].
+	aCollector release.
 	DebugScopeGlobalAnnouncer default announce: ObjectCollectorHasChanged

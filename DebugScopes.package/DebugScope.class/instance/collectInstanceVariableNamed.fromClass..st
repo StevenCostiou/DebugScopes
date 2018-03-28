@@ -1,6 +1,3 @@
-scoping - objects
+scoping - collectors
 collectInstanceVariableNamed: instVarName fromClass: aClass
-	| scope |
-	scope := InstanceVariableScope new.
-	self addObjectScope: scope.
-	scope collectInstanceVariableNamed: instVarName fromClass: aClass
+	self addCollector: (Collector collectInstVarNamed: instVarName inClass: aClass)

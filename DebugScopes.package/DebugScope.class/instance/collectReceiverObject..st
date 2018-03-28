@@ -1,6 +1,3 @@
-scoping - objects
+scoping - collectors
 collectReceiverObject: node
-	| scope |
-	scope := VariableScope new.
-	self addObjectScope: scope.
-	scope collectReceiverObject: node
+	self addCollector: (Collector collectReceiver: node)

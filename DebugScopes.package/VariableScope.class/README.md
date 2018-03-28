@@ -1,1 +1,0 @@
-The VariableScope collects a single object which could be a temporary variable, a slot or a receiver object. Each time an object is collected, the previous object is sent back to the layer to be unadapted. The object collection is reseted each time.

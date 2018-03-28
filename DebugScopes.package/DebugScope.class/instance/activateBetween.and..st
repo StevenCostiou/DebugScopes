@@ -1,3 +1,3 @@
 scoping - activation
 activateBetween: anAst and: anOtherAst
-	self addActivationScope: (ControlFlowScope from: anAst to: anOtherAst)
+	self addActivator: (ControlFlowScope from: anAst to: anOtherAst)

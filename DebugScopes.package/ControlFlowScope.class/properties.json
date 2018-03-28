@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "ActivationScope",
-	"category" : "DebugScopes-Scopes",
+	"category" : "DebugScopes-Activators",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

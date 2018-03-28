@@ -1,3 +1,0 @@
-installing - options
-control
-	^ #before

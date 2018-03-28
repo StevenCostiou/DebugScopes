@@ -1,2 +1,0 @@
-scoping - objects
-collectAllExistingInstancesFrom: aClass

@@ -1,3 +1,3 @@
 accessing
 scopeName: anObject
-	layerName := anObject
+	scopeName := anObject

@@ -1,3 +1,3 @@
 accessing
 collectors
-	^ objectsScopes
+	^ collectors

@@ -1,7 +1,7 @@
 dependencies
 release
-	activationScopes do: [ :scope | scope release ].
+	activators do: [ :activator | activator release ].
 	self basicDeactivate.
 	self initializeScope.
-	objectsScopes do: [ :scope | scope release ].
+	collectors do: [ :collector | collector release ].
 	super release

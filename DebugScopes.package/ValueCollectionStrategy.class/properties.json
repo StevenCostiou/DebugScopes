@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "CollectionStrategy",
+	"category" : "DebugScopes-Collectors",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"node"
+	],
+	"name" : "ValueCollectionStrategy",
+	"type" : "normal"
+}

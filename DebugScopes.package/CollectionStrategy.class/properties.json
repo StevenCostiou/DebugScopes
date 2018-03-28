@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "DebugScopes-Collectors",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"link",
+		"collector",
+		"selector",
+		"collectAction",
+		"reifications",
+		"weakObject"
+	],
+	"name" : "CollectionStrategy",
+	"type" : "normal"
+}

@@ -1,3 +1,3 @@
 activation
 updateActivationState
-	allScopesActivated := activationScopes allSatisfy: [ :s | s isActive ]
+	allScopesActivated := activators allSatisfy: [ :s | s isActive ]

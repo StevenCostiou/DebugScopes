@@ -1,3 +1,3 @@
 initialization
 initializeScopeActivation
-	activationScopes do: [ :scope | scope initializeActivationConditions ]
+	activators do: [ :activator | activator initializeActivationConditions ]

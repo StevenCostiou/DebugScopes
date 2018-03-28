@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ValueCollectionStrategy",
+	"category" : "DebugScopes-Collectors",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ReceiverCollectionStrategy",
+	"type" : "normal"
+}

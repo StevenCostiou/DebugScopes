@@ -1,3 +1,0 @@
-accessing
-manualScopeType
-	^'Manual Collector'

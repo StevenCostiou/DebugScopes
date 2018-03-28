@@ -4,5 +4,5 @@ activate
 	otherwise it just triggers an activation check on all scopes.
 	If all scopes are active then the layer activates "
 
-	activationScopes ifEmpty: [ ^ self basicActivate ].
+	activators ifEmpty: [ ^ self basicActivate ].
 	self notifyScopeActivation

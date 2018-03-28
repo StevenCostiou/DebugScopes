@@ -1,3 +1,3 @@
 typing/selecting keys
-find: aLayerName
-	^ self scopes at: aLayerName ifAbsent: [ nil ]
+find: aScopeName
+	^ self scopes at: aScopeName ifAbsent: [ nil ]

@@ -9,14 +9,14 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"layerName",
 		"isActive",
 		"adaptedProcess",
 		"allScopesActivated",
-		"activationScopes",
-		"objectsScopes",
 		"adaptationsForCollectors",
-		"activationScript"
+		"activationScript",
+		"collectors",
+		"activators",
+		"scopeName"
 	],
 	"name" : "DebugScope",
 	"type" : "normal"

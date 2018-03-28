@@ -1,5 +1,3 @@
 accessing
 collectedObjects
-	^ WeakOrderedCollection
-		withAll:
-			((objectsScopes flatCollect: [ :scope | scope collectedObjects ]) select: [ :o | o notNil ])
+	^ WeakOrderedCollection withAll: ((collectors flatCollect: [ :collector | collector collectedObjects ]) select: [ :o | o notNil ])

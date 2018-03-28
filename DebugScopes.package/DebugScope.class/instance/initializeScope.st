@@ -1,7 +1,7 @@
 initialization
 initializeScope
-	objectsScopes := OrderedCollection new.
-	activationScopes := OrderedCollection new.
+	collectors := OrderedCollection new.
+	activators := OrderedCollection new.
 	isActive := false.
 	allScopesActivated := false.
 	adaptationsForCollectors := Dictionary new.

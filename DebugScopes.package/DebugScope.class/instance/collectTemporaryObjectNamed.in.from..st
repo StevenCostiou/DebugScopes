@@ -1,6 +1,3 @@
-scoping - objects
+scoping - collectors
 collectTemporaryObjectNamed: aVarName in: aMethodName from: aClass
-	| scope |
-	scope := VariableScope new.
-	self addObjectScope: scope.
-	scope collectTemporaryObjectNamed: aVarName in: aMethodName from: aClass
+	self addCollector: (Collector collectTempVarNamed: aVarName inMethodNamed: aMethodName inClass: aClass)

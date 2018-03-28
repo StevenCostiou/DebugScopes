@@ -4,5 +4,5 @@ deactivate
 	otherwise it just triggers an activation check on all scopes.
 	If all scopes are inactive then the layer deactivates "
 
-	activationScopes ifEmpty: [ ^ self basicDeactivate ].
+	activators ifEmpty: [ ^ self basicDeactivate ].
 	self notifyScopeActivation

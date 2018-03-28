@@ -1,6 +1,6 @@
-scoping - objects
+scoping - collectors
 collectAll: objects
 	| scope |
-	scope := ObjectScope new.
-	self addObjectScope: scope.
+	scope := Collector new.
+	self addCollector: scope.
 	scope collectAll: objects
