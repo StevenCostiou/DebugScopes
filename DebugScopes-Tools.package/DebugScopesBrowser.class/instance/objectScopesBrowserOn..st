@@ -23,9 +23,9 @@ objectScopesBrowserOn: browser
 						ifTrue: [ collector disable ] ]
 					entitled: 'Disable';
 				display: collectors;
-				column: 'Collector' evaluated: [ :each | each asString ] width: 250;
+				column: 'Collector' evaluated: [ :each | each printDefinition ] width: 350;
 				column: 'Collector Type' evaluated: [ :each | each type ] width: 150;
-				column: 'Collected Objects' evaluated: [ :each | each numberOfCollectedObjects ] width: 30;
+				column: 'Collected Objects' evaluated: [ :each | each numberOfCollectedObjects ] width: 15;
 				icon: [ :each | 
 					each enabled
 						ifTrue: [ GLMUIThemeExtraIcons glamorousGreenCircle ]

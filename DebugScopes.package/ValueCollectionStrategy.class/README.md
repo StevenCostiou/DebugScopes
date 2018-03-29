@@ -1,0 +1,1 @@
+I setup a Collector to collect the result of an expression in a method. A new object is collected each time the expression is executed.

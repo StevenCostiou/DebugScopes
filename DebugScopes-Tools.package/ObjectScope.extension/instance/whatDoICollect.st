@@ -1,3 +1,0 @@
-*DebugScopes-Tools
-whatDoICollect
-	^ 'references'

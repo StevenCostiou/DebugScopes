@@ -1,0 +1,1 @@
+I setup a Collector to collect the receiver of a given message in a method. A new object is collected each time the message is sent to an object.

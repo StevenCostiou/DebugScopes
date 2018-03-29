@@ -1,0 +1,1 @@
+I am an abstract strategy for Collectors installation. I use Reflectivity and an installation strategy of MetaLinks to instrument the system.

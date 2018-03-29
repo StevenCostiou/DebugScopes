@@ -17,9 +17,9 @@ compose
 				to: #evaluator;
 				andShow: [ :a | 
 					a pharoScript
-						display: 'scope';
+						display: (self selectedScope ifNil:[''] ifNotNil:[:s|s scopeName]);
 						title: 'Scope evaluator';
-						variableBindings: [ {(#scope -> self selectedScope)} ] ].
+						variableBindings: [ {(self selectedScope scopeName asSymbol -> self selectedScope)} ] ].
 			browser transmit
 				to: #browser;
 				fromOutsidePort: #entity;

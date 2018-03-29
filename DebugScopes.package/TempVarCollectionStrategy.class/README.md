@@ -1,0 +1,1 @@
+I know how to setup a Collector for a temporary variable in a given method. The specified temp var will be collected each time it is written and that a new value is stored. Each time the value/reference stored in the temp var changes, the new object is collected.

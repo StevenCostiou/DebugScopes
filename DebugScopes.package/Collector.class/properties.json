@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "StevenCostiou 3/28/2018 19:01",
+	"commentStamp" : "StevenCostiou 3/29/2018 08:48",
 	"super" : "AbstractDynamicScope",
 	"category" : "DebugScopes-Collectors",
 	"classinstvars" : [ ],

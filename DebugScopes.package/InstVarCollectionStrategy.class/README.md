@@ -1,0 +1,1 @@
+I know how to setup a Collector for an instance variable. All using methods of the variable are instrumented, and the specified inst var will be collected each time a read or write to the slot is performed. However the same value or reference can be collected only once. If the value/reference stored in the inst var changes, then multiple objects can be collected.
