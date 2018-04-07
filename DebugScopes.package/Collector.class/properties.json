@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "StevenCostiou 3/29/2018 08:48",
-	"super" : "AbstractDynamicScope",
+	"super" : "DebugScopeAbstractControl",
 	"category" : "DebugScopes-Collectors",
 	"classinstvars" : [ ],
 	"pools" : [ ],

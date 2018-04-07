@@ -1,0 +1,3 @@
+*DebugScopes-Tools
+printActivationValue
+	self subclassResponsibility

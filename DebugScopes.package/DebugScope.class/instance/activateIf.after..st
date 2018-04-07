@@ -6,4 +6,4 @@ activateIf: aConditionString after: aNode
 		do: [ nil ].
 	conditionBlock isBlock
 		ifFalse: [ ^ self ].
-	self addActivator: (ConditionalScope scopeToCondition: conditionBlock afterNode: aNode)
+	self addActivator: (ConditionalActivator scopeToCondition: conditionBlock afterNode: aNode)

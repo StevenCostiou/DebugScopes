@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "StevenCostiou 10/14/2017 19:47",
+	"super" : "ScopeActivator",
+	"category" : "DebugScopes-Activators",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"link",
+		"activationValue"
+	],
+	"name" : "ConditionalActivator",
+	"type" : "normal"
+}

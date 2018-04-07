@@ -4,10 +4,10 @@ testComposedScopesActivation
 	layer := DebugScope new.
 	scope1 := ManualScope new.
 	scope2 := ManualScope new.
-	layer addActivationScope: scope1.
+	layer addActivator: scope1.
 	scope1 activate: true.
 	self assert: layer isActive.
-	layer addActivationScope: scope2.
+	layer addActivator: scope2.
 	self assert: layer isActive not.
 	scope2 activate: true.
 	self assert: layer isActive.

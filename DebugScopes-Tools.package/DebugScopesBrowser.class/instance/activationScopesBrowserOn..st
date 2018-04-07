@@ -11,8 +11,8 @@ activationScopesBrowserOn: browser
 				display: activators;
 				updateOn: ObjectActivatorHasChanged from: [ DebugScopeGlobalAnnouncer default weak ];
 				selectionAct: [ :presentation | self renameScopingProperty: presentation selection ] entitled: 'Rename...';
-				column: 'Activator' evaluated: [ :each | each asString ] width: 350;
-				column: 'Type' evaluated: [ :each | each type ];
+				column: 'Activator' evaluated: [ :each | each printActivationValue ] width: 250;
+				column: 'Type' evaluated: [ :each | each title ];
 				icon: [ :each | 
 					each isActive
 						ifTrue: [ GLMUIThemeExtraIcons glamorousGreenCircle ]
@@ -20,7 +20,4 @@ activationScopesBrowserOn: browser
 	browser transmit
 		from: #adaptationScopes;
 		to: #activationDefinition;
-		andShow: [ :a :scope | 
-			a text
-				title: 'Activation Definition';
-				display: scope printSpecification ]
+		andShow: [ :a :scope | self buildObjectScopeDefinitionFor: scope in: a ]

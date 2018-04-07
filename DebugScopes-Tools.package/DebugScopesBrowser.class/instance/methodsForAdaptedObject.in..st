@@ -7,5 +7,6 @@ methodsForAdaptedObject: association in: a
 	hooks := adaptation generateHooksForObject: association key new.
 	list display: hooks.
 	list icon: [ :hook | hook icon ].
-	list column: 'Control' evaluated: [ :each | each control ] width: 100.
-	list column: 'Selector' evaluated: [ :each | each replacementMethod selector ] width: 300
+	list column: 'Behavior' evaluated: [ :each | each replacementMethod selector ] width: 150.
+	list column: 'Control' evaluated: [ :each | each control ] width: 70.
+	list column: 'Method' evaluated: [ :each | each originalMethod printString ] width: 150

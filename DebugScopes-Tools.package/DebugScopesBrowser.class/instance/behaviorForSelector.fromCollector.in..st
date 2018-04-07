@@ -6,7 +6,7 @@ behaviorForSelector: selector fromCollector: collector in: a
 		on: Error
 		do: [ '"Define your method here"' ].
 	a pharoMethod
-		title: 'Method';
+		title: 'Debug Method';
 		smalltalkClass: [ class ];
 		display: source;
 		selectionAct: [ :thepane :theselector | 

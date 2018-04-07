@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "ActivationScope",
+	"super" : "ScopeActivator",
 	"category" : "DebugScopes-Tests-model",
 	"classinstvars" : [ ],
 	"pools" : [ ],

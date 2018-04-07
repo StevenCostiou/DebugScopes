@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "DebugScopes-Scopes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"scopeName",
+		"scope",
+		"weakObject"
+	],
+	"name" : "DebugScopeAbstractControl",
+	"type" : "normal"
+}

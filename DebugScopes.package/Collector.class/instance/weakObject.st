@@ -1,0 +1,3 @@
+accessing
+weakObject
+	^ strategy weakObject

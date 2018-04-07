@@ -1,0 +1,3 @@
+api
+installForClass
+	^self subclassResponsibility 

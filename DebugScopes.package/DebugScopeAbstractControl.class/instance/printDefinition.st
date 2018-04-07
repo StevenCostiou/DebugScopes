@@ -1,0 +1,3 @@
+printing
+printDefinition
+	^ self subclassResponsibility

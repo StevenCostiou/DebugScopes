@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "DebugScopeAbstractControl",
+	"category" : "DebugScopes-Activators",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"isActive",
+		"initialized"
+	],
+	"name" : "ScopeActivator",
+	"type" : "normal"
+}

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "ScopeActivator",
+	"category" : "DebugScopes-Activators",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"activationEvent",
+		"deactivationEvent"
+	],
+	"name" : "EventActivator",
+	"type" : "normal"
+}

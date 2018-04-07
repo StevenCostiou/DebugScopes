@@ -11,7 +11,8 @@
 		"selector",
 		"collectAction",
 		"reifications",
-		"weakObject"
+		"weakObject",
+		"installAction"
 	],
 	"name" : "CollectionStrategy",
 	"type" : "normal"

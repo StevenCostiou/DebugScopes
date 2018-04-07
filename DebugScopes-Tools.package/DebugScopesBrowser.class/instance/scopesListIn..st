@@ -4,7 +4,7 @@ scopesListIn: a
 	list := a list.
 	list updateOn: DebugScopeHasChanged from:[DebugScopeGlobalAnnouncer default weak].
 	list
-		title: 'Scopes';
+		"title: 'Scopes';"
 		display: scopes;
 		sorted: [ :x :y | x scopeName < y scopeName ];
 		format: [ :each | each scopeName ];

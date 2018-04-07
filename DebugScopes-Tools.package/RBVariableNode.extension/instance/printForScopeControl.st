@@ -1,0 +1,3 @@
+*DebugScopes-Tools
+printForScopeControl
+	^name

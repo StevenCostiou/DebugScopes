@@ -2,7 +2,7 @@ tests
 testActivationOnCondition
 	| obj scope |
 	obj := AnObjectWithInstVar new.
-	scope := ConditionalScope
+	scope := ConditionalActivator
 		scopeToCondition: [ :object :class | obj class == class and: [ object == obj ] ]
 		afterNode: (AnObjectWithInstVar >> #aMethodWithTempVar) ast statements first.
 	scope scope: DebugScope new.

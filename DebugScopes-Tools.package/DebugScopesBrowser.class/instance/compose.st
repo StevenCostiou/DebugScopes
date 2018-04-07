@@ -5,21 +5,21 @@ compose
 			browser
 				row: [ :r | 
 					r
-						column: #scopes;
-						column: #browser span: 6 ]
-				span: 5.
-			browser row: #evaluator.
+						column: #scopes span: 1;
+						column: #browser span: 8 ]
+				.
+			"browser row: #evaluator."
 			browser transmit
 				to: #scopes;
 				andShow: [ :a | self scopesListIn: a ].
-			browser transmit
+			"browser transmit
 				from: #scopes;
 				to: #evaluator;
 				andShow: [ :a | 
 					a pharoScript
 						display: (self selectedScope ifNil:[''] ifNotNil:[:s|s scopeName]);
 						title: 'Scope evaluator';
-						variableBindings: [ {(self selectedScope scopeName asSymbol -> self selectedScope)} ] ].
+						variableBindings: [ {(self selectedScope scopeName asSymbol -> self selectedScope)} ] ]."
 			browser transmit
 				to: #browser;
 				fromOutsidePort: #entity;

@@ -3,7 +3,7 @@ testActivationOnTempVarValue
 	| obj1 obj2 scope |
 	obj1 := AnObjectWithInstVar new.
 	obj2 := AnObjectWithInstVar new.
-	scope := ConditionalScope
+	scope := ConditionalActivator
 		scopeToValue: 10
 		inTempNamed: #var
 		inMethodNamed: #aMethodWithTempVar

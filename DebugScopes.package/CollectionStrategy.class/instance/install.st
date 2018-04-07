@@ -1,4 +1,3 @@
 api
 install
-	^self subclassResponsibility 
-	
+	^ self perform: installAction

@@ -3,7 +3,7 @@ behaviorsForCollector: collector in: a
 	| table |
 	table := a fastTable.
 	table
-		title: 'Behaviors';
+		title: 'Debug Behaviors';
 		display: behaviors;
 		column: 'Selectors' evaluated: [ :each | each asString ] width: 500;
 		selectionAct: [ :tree | 
