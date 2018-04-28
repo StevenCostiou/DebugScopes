@@ -4,5 +4,5 @@ basicCollectObject: anObject
 	(self collectedObjects anySatisfy: [ :o | o == anObject ])
 		ifTrue: [ ^ self ].
 	self collectedObjects add: anObject.
-	self collectedClasses add: anObject class.
+	self addCollectedClass: anObject class.
 	collectAction ifNotNil: [ :block | block value: anObject ]
