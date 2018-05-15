@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "StevenCostiou 5/15/2018 16:42",
+	"super" : "Object",
+	"category" : "DebugScopes-Tools-Browser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"composite"
+	],
+	"name" : "ControlScopeVisualBuilder",
+	"type" : "normal"
+}

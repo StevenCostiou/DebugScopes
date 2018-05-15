@@ -9,7 +9,7 @@ selectScopeIn: composer
 		composer dynamic
 		title: 'Behaviors Visualization';
 		display: [ :layers :selectedLayer | self browseAdaptationsForLayer: selectedLayer ].
-	composer dynamic
+	"composer dynamic
 		title: 'Activation Script';
 		display: [ :layers :selectedLayer | self browseScriptForScope: selectedLayer ].
-	
+	"

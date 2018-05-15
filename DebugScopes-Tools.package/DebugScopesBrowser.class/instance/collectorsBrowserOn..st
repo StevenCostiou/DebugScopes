@@ -1,5 +1,5 @@
 collectors and activators - building
-objectScopesBrowserOn: browser
+collectorsBrowserOn: browser
 	self updateCollectorList.
 	browser transmit
 		to: #collectors;
@@ -33,4 +33,4 @@ objectScopesBrowserOn: browser
 	browser transmit
 		from: #collectors;
 		to: #objectDefinition;
-		andShow: [ :a :scope | self buildObjectScopeDefinitionFor: scope in: a ]
+		andShow: [ :a :scope | self buildCollectorDefinitionFor: scope in: a ]

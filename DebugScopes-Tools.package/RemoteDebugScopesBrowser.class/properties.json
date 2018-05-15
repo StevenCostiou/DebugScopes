@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "DebugScopesBrowser",
+	"category" : "DebugScopes-Tools-Browser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "RemoteDebugScopesBrowser",
+	"type" : "normal"
+}

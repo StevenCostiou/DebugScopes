@@ -20,4 +20,4 @@ activationScopesBrowserOn: browser
 	browser transmit
 		from: #adaptationScopes;
 		to: #activationDefinition;
-		andShow: [ :a :scope | self buildObjectScopeDefinitionFor: scope in: a ]
+		andShow: [ :a :scope | self buildCollectorDefinitionFor: scope in: a ]
