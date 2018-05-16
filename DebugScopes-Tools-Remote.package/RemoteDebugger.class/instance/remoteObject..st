@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 remoteObject: aBlock
 	^ remotePharo evaluate: aBlock

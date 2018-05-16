@@ -1,4 +1,4 @@
-as yet unclassified
+connection
 disconnect
 	TlpRemoteIDE disconnectAll.
 	DebugScopesBrowserMenuActions remoteClass: nil
