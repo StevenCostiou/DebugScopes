@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "DebugScopes-Tools-Remote",
+	"classinstvars" : [
+		"debugger"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"remotePharo"
+	],
+	"name" : "RemoteDebugger",
+	"type" : "normal"
+}
