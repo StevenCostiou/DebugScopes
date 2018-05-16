@@ -1,5 +1,5 @@
 visiting
-buildValueCollector: strategy
+buildReceiverCollector: strategy
 	| pharoMethod node |
 	pharoMethod := composite pharoMethod.
 	node := strategy node.
@@ -8,5 +8,5 @@ buildValueCollector: strategy
 		smalltalkClass: [ node methodNode methodClass ];
 		variableBindings: [ {(#node -> node)} ];
 		display: strategy printNode.
-	pharoMethod addTextSegment: (self inspectSegmentForValue: strategy).
+	pharoMethod addTextSegment: (self inspectSegmentForReceiver: strategy).
 	pharoMethod addTextSegment: (DBActivatorHighlightSegmentMorph forCollectorNode: node)
