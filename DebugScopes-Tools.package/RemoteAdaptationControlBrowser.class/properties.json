@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "AdaptationControlBrowser",
+	"category" : "DebugScopes-Tools-Browser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "RemoteAdaptationControlBrowser",
+	"type" : "normal"
+}

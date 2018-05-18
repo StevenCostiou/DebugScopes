@@ -1,5 +1,5 @@
 instance-creation
-onAdaptationSpec: spec control: control by: selector inList: controls
+onAdaptationSpec: spec control: control by: selector inList: controls parent: parentBrowser
 	| browser |
 	browser := self new.
 	browser title: 'Configure adaptation control'.
@@ -8,4 +8,5 @@ onAdaptationSpec: spec control: control by: selector inList: controls
 	browser adaptationSpec: spec.
 	browser controllingMethodFromSelector: selector.
 	browser controlsList: controls.
-	browser openOn: (Array with: Object)
+	browser parentBrowser: parentBrowser.
+	browser openOn: (Array with: (RemoteDebugger current remoteObject: [ Smalltalk at: #Object ]))

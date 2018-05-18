@@ -1,8 +1,8 @@
-behaviors - actions
+instance creation
 newBehaviorControlled: control bySelector: selector forCollector: collector
 	| spec |
 	spec := self selectedScope adaptationSpecForCollector: collector.
-	AdaptationControlBrowser
+	RemoteAdaptationControlBrowser
 		onAdaptationSpec: spec
 		control: control
 		by: selector

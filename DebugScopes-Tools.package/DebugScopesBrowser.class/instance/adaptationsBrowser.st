@@ -1,6 +1,6 @@
 adaptations - building
 adaptationsBrowser
-	| browser |	
+	| browser |
 	browser := GLMTabulator new.
 	browser
 		row: [ :r | 
@@ -20,10 +20,12 @@ adaptationsBrowser
 		from: #methods;
 		to: #diff;
 		andShow: [ :a :method | 
-			a diff
+			| diff |
+			diff := a diff.
+			diff title: 'Original code / Adapted code'.
+			diff
 				display: [ :hook | 
 					{hook originalSourceCode.
-					hook adaptedSourceCode} ];
-				contextClass: [ :hook | (hook originalMethod ifNil: [ hook replacementMethod ]) methodClass ];
-				title: 'Original code / Adapted code' ].
+					hook adaptedSourceCode} ].
+			diff contextClass: [ :hook | (hook originalMethod ifNil: [ hook replacementMethod ]) methodClass ] ].
 	^ browser

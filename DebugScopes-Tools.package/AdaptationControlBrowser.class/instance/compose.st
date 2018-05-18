@@ -1,7 +1,7 @@
 building
 compose
 	argsBrowser := nil.
-	self tabulator 
+	self tabulator
 		with: [ :browser | 
 			browser
 				row: [ :r | 
@@ -19,13 +19,10 @@ compose
 				to: #classes;
 				andShow: [ :a | 
 					argsBrowser := nil.
-					"	a fastList
-						title: 'Classes';
-						display: [ :input | input ];
-						enableFilter"
 					a fastTree
 						title: 'Available Classes';
-						children: [ :class | (class subclasses select: [ :c | adaptationSpec superClassPool includes: c ]) sort: [ :b :c | b asString < c asString ] ];
+						children:
+								[ :class | (class subclasses select: [ :c | adaptationSpec superClassPool includes: c ]) sort: [ :b :c | b asString < c asString ] ];
 						allExpanded ].
 			browser transmit
 				from: #classes;

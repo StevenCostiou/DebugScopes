@@ -10,7 +10,8 @@
 		"adaptationSpec",
 		"controlsList",
 		"controlSpec",
-		"argsBrowser"
+		"argsBrowser",
+		"parentBrowser"
 	],
 	"name" : "AdaptationControlBrowser",
 	"type" : "normal"
