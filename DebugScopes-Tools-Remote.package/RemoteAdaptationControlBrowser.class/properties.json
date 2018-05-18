@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "AdaptationControlBrowser",
-	"category" : "DebugScopes-Tools-Browser",
+	"category" : "DebugScopes-Tools-Remote",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
