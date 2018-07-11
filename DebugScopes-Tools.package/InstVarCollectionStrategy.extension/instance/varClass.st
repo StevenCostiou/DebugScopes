@@ -1,0 +1,3 @@
+*DebugScopes-Tools
+varClass
+	^ varClass

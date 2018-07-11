@@ -1,0 +1,1 @@
+Builds source code representations of collectors and activators.

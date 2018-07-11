@@ -2,7 +2,7 @@ menu - scopes
 buildSubMenuOn: aBuilder
 	| context |
 	context := SugsAbstractContext contextFor: aBuilder model.
-	DebugScope scopes
+	(remote ifNil: [ DebugScope scopes ] ifNotNil: [ RemoteDebugger current scopes ])
 		do: [ :scope | 
 			aBuilder
 				item: scope;

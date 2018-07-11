@@ -1,8 +1,8 @@
-*DebugScopes-Tools
-buildInComposite: composite
-	| pharoMethod line1 line2 ws h1 h2|
-	line1 := 'Activates when: ' , activationEvent printString.
-	line2 := 'Deactivates when: ' , deactivationEvent printString.
+visiting
+buildEventActivator: activator
+	| pharoMethod line1 line2 ws h1 h2 |
+	line1 := 'Activates when: ' , activator activationEvent printString.
+	line2 := 'Deactivates when: ' , activator deactivationEvent printString.
 	ws := WriteStream on: String new.
 	ws nextPutAll: line1.
 	ws cr.
@@ -15,4 +15,4 @@ buildInComposite: composite
 	pharoMethod addTextSegment: h1.
 	h2 := DBActivatorHighlightSegmentMorph from: line1 size + 3 to: ws contents size + 1.
 	h2 setForDeactivationEvent.
-	pharoMethod addTextSegment: h2.
+	pharoMethod addTextSegment: h2

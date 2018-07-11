@@ -7,3 +7,4 @@ newBehaviorControlled: control bySelector: selector forCollector: collector
 		control: control
 		by: selector
 		inList: controls
+		parent: self

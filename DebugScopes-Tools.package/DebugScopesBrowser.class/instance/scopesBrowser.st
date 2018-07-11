@@ -12,5 +12,5 @@ scopesBrowser
 				column: #activationDefinition;
 				column: #objectDefinition ].
 	self activationScopesBrowserOn: browser.
-	self objectScopesBrowserOn: browser.
+	self collectorsBrowserOn: browser.
 	^ browser

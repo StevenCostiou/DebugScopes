@@ -1,6 +1,7 @@
 actions
 collectReceiverInContext: aClySugsMethodContext forScope: aScope
 	| nodes node |
+	remote ifNotNil: [ ^ remote collectReceiverInContext: aClySugsMethodContext forScope: aScope].
 	nodes := SugsMenuBuilder findBestNodeIntervalFor: aClySugsMethodContext.
 	nodes first == nodes last
 		ifFalse: [ ^ self inform: 'Unable to find the object: selection may be too large' ].

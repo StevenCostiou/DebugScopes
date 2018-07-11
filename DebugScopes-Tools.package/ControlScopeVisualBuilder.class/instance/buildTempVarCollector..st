@@ -1,15 +1,14 @@
-*DebugScopes-Tools
-buildInComposite: composite
+visiting
+buildTempVarCollector: strategy
 	| pharoMethod node |
 	pharoMethod := composite pharoMethod.
-	node := self nodes atRandom.
+	node := strategy nodes atRandom.
 	pharoMethod
-		title: self title;
-		smalltalkClass: [ varClass ];
-		"primarySelectionInterval: (node start to: node stop);"
-			variableBindings: [ {(#node -> node)} ];
-		display: (varClass >> methodName) sourceCode.
-	self nodes
+		title: strategy title;
+		smalltalkClass: [ strategy varClass ];
+		variableBindings: [ {(#node -> node)} ];
+		display: (strategy varClass >> strategy methodName) sourceCode.
+	strategy nodes
 		do: [ :n | 
 			| seg |
 			pharoMethod addTextSegment: (DBActivatorHighlightSegmentMorph forCollectorNode: n).

@@ -1,0 +1,3 @@
+*DebugScopes-Tools
+acceptVisualBuilderVisitor: builder
+	strategy acceptCollectorVisualBuilderVisitor: builder

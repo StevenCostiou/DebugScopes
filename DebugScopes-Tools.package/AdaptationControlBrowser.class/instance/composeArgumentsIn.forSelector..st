@@ -7,6 +7,7 @@ composeArgumentsIn: view forSelector: selector
 		ifTrue: [ ^ self ].
 	availableArgs := OrderedCollection withAll: (methodArgs collect: [ :argNode | argNode ]).
 	availableArgs addAll: RFReification reificationKeysForMethods.
+	"availableArgs addAll: (self controlSpec controlledMethod ast body temporaries collect: [ :tempNode | RBArgumentNode named: tempNode name ])."
 	argsBrowser := view tabulator.
 	argsBrowser
 		with: [ :browser | 

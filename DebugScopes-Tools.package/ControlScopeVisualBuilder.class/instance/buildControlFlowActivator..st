@@ -1,11 +1,13 @@
-*DebugScopes-Tools
-buildInComposite: composite
-	| start stop pharoMethod seg |
+visiting
+buildControlFlowActivator: activator
+	| activationAst deactivationAst start stop pharoMethod seg |
+	activationAst := activator activationAst.
+	deactivationAst := activator deactivationAst.
 	start := activationAst start.
 	stop := deactivationAst stop + 1.
 	pharoMethod := composite pharoMethod.
 	pharoMethod
-		title: self title;
+		title: activator title;
 		smalltalkClass: [ activationAst methodNode methodClass ];
 		variableBindings: [ {(activationAst printForScopeControl asSymbol -> activationAst).
 			(deactivationAst printForScopeControl asSymbol -> deactivationAst)} ];
