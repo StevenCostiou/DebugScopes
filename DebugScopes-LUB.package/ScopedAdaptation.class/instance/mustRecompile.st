@@ -1,0 +1,3 @@
+testing
+mustRecompile
+	^adaptationSpec mustRecompile
