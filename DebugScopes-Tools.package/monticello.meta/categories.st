@@ -1,2 +1,2 @@
 SystemOrganization addCategory: #'DebugScopes-Tools'!
-SystemOrganization addCategory: 'DebugScopes-Tools-Browser'!
+SystemOrganization addCategory: #'DebugScopes-Tools-Browser'!

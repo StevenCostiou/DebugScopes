@@ -2,4 +2,5 @@ initialize
 initialize
 	controlMap := Dictionary new.
 	definingClass := Object newAnonymousSubclass.
-	superClassPool := OrderedCollection new
+	superClassPool := OrderedCollection new.
+	mustRecompile := false

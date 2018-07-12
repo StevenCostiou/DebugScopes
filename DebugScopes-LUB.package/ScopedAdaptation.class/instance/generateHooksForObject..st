@@ -11,7 +11,7 @@ generateHooksForObject: anObject
 					| hook |
 					hook := LUBHook
 						hook: controlSpec controlledMethod
-						with: controlSpec controllingMethod
+						with: (adaptationSpec definingClass >> controlSpec controllingMethod selector)
 						control: controlSpec control.
 					hook args: controlSpec argsArray.
 					generatedHooks add: hook ] ].

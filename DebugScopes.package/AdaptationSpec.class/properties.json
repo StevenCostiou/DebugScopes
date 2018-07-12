@@ -9,7 +9,8 @@
 		"controlMap",
 		"definingClass",
 		"adaptation",
-		"superClassPool"
+		"superClassPool",
+		"mustRecompile"
 	],
 	"name" : "AdaptationSpec",
 	"type" : "normal"

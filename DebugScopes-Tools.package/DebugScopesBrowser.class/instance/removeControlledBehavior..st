@@ -1,4 +1,7 @@
 behaviors - actions
 removeControlledBehavior: aControlSpec
+	| spec |
 	controls remove: aControlSpec.
-	(self selectedScope adaptationSpecForCollector: selectedCollector) removeControl: aControlSpec forBehavior: aControlSpec controllingSelector
+	spec := self selectedScope adaptationSpecForCollector: selectedCollector.
+	spec removeControl: aControlSpec forBehavior: aControlSpec controllingSelector.
+	spec mustRecompile: true
